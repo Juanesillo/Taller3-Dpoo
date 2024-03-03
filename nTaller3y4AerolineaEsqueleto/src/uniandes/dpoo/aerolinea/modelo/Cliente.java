@@ -1,10 +1,16 @@
 package uniandes.dpoo.aerolinea.modelo;
 
+import java.util.ArrayList;
+import java.util.Set;
+
 import uniandes.dpoo.aerolinea.tiquetes.Tiquete;
 
 public abstract class Cliente {
 	
-	
+	private ArrayList<Tiquete> TiqueteSinUsar = new ArrayList<>();
+	private ArrayList<Tiquete> TiquetesUsados = new ArrayList<>();
+
+
 	protected Cliente() {}
 	
 	
@@ -13,6 +19,7 @@ public abstract class Cliente {
 	public abstract String getIdentificador();
 	
 	public void agregarTiquete(Tiquete tiquete){
+		TiqueteSinUsar.add(tiquete);
 		
 	};
 	
@@ -21,7 +28,19 @@ public abstract class Cliente {
 	};
 	
 	public  void UsarTiquetes(Vuelo vuelo){
+		Set<String> iterable= vuelo.getTiquetes();
+		Object[] p = iterable.toArray();
+		for(int i=0; i< p.length;i++){
+			TiqueteSinUsar.remove(p[i]);
+			TiquetesUsados.add((Tiquete) p[i]);
 
+
+		}
+
+		
+
+		
+		
 	
 	};
 	

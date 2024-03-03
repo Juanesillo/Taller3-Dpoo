@@ -1,6 +1,6 @@
 package uniandes.dpoo.aerolinea.modelo;
 
-public class Avion {
+public class Avion extends java.lang.Object {
 	private String nombre;
 	private int capacidad;
 	
