@@ -1,6 +1,4 @@
 package uniandes.dpoo.aerolinea.modelo.tarifas;
-
-
 import uniandes.dpoo.aerolinea.modelo.Aeropuerto;
 import uniandes.dpoo.aerolinea.modelo.Cliente;
 import uniandes.dpoo.aerolinea.modelo.Ruta;
