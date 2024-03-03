@@ -1,6 +1,4 @@
-package uniandes.dpoo.aerolinea.modelo;
-
-
+package uniandes.dpoo.aerolinea.modelo.cliente;
 
 public class ClienteNatural extends Cliente{
 	

@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.Set;
 
 import uniandes.dpoo.aerolinea.exceptions.VueloSobrevendidoException;
+import uniandes.dpoo.aerolinea.modelo.cliente.Cliente;
 
 
 public class Vuelo {

@@ -1,8 +1,7 @@
 package uniandes.dpoo.aerolinea.modelo.tarifas;
 
-import uniandes.dpoo.aerolinea.modelo.Cliente;
-
 import uniandes.dpoo.aerolinea.modelo.Vuelo;
+import uniandes.dpoo.aerolinea.modelo.cliente.Cliente;
 
 public class CalculadoraTarifasTemporadaBaja extends CalculadoraTarifas{
     protected final int CostoPorKMNatural =600;

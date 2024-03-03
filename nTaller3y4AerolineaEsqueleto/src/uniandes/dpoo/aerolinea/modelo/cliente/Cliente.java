@@ -1,8 +1,9 @@
-package uniandes.dpoo.aerolinea.modelo;
+package uniandes.dpoo.aerolinea.modelo.cliente;
 
 import java.util.ArrayList;
 import java.util.Set;
 
+import uniandes.dpoo.aerolinea.modelo.Vuelo;
 import uniandes.dpoo.aerolinea.tiquetes.Tiquete;
 
 public abstract class Cliente {

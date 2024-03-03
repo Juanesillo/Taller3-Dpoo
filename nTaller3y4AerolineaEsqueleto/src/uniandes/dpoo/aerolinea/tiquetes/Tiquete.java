@@ -1,7 +1,7 @@
 package uniandes.dpoo.aerolinea.tiquetes;
 
-import uniandes.dpoo.aerolinea.modelo.Cliente;
 import uniandes.dpoo.aerolinea.modelo.Vuelo;
+import uniandes.dpoo.aerolinea.modelo.cliente.Cliente;
 
 public class Tiquete extends java.lang.Object {
 	

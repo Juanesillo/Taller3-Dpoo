@@ -2,8 +2,6 @@ package uniandes.dpoo.aerolinea.modelo.cliente;
 
 import org.json.JSONObject;
 
-import uniandes.dpoo.aerolinea.modelo.Cliente;
-
 /**
  * Esta clase se usa para representar a los clientes de la aerolínea que son empresas
  */
