@@ -12,11 +12,18 @@ public abstract class Cliente {
 	
 	public abstract String getIdentificador();
 	
-	public abstract void agregarTiquete(Tiquete tiquete);
+	public void agregarTiquete(Tiquete tiquete){
+		
+	};
 	
-	public abstract int CalcularValorTotalTiquetes();
+	public  int CalcularValorTotalTiquetes(){
+		return -1;
+	};
 	
-	public abstract void UsarTiquetes(Vuelo vuelo);
+	public  void UsarTiquetes(Vuelo vuelo){
+
+	
+	};
 	
 	
 	

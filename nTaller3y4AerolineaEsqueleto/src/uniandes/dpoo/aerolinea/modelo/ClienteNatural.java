@@ -1,10 +1,10 @@
 package uniandes.dpoo.aerolinea.modelo;
 
-import uniandes.dpoo.aerolinea.tiquetes.Tiquete;
+
 
 public class ClienteNatural extends Cliente{
 	
-	public String Natural = "Natural";
+	public static final String Natural = "Natural";
 	private String Nombre;
 	
 	
@@ -23,32 +23,16 @@ public class ClienteNatural extends Cliente{
 	@Override
 	public String getTipoCliente() {
 		
-		return Nombre;
+		return Natural;
 	}
 
 	@Override
 	public String getIdentificador() {
-		// TODO Auto-generated method stub
-		return null;
+
+		return Nombre;
 	}
 
-	@Override
-	public void agregarTiquete(Tiquete tiquete) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public int CalcularValorTotalTiquetes() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void UsarTiquetes(Vuelo vuelo) {
-		// TODO Auto-generated method stub
-		
-	}
+	
 	
 
 }
