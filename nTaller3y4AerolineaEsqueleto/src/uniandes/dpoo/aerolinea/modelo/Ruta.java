@@ -13,8 +13,7 @@ public class Ruta
 	
 	private Aeropuerto origen;
 	private Aeropuerto destino;
-    // TODO completar
-	
+   
 	
 	public Ruta(Aeropuerto origen, Aeropuerto destino, String HoraSalida, String HoraLlegada, String codigoRuta) {
 		this.origen=origen;

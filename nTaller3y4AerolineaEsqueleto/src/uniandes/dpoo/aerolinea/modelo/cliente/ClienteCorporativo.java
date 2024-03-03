@@ -6,7 +6,7 @@ import org.json.JSONObject;
  * Esta clase se usa para representar a los clientes de la aerolínea que son empresas
  */
 public class ClienteCorporativo extends Cliente{
-    // TODO completar
+
     public static final String CORPORATIVO= "CORPORATIVO";
     public static final int GRANDE=1;
     public static final int MEDIANA=2;
