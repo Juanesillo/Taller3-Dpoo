@@ -163,7 +163,12 @@ public class Aerolinea
      */
     public Vuelo getVuelo( String codigoRuta, String fechaVuelo )
     {
-        // TODO implementar
+    	/*buscar codigo Ruta*/
+    	
+    	/* buscar fechavuelo*/
+    	
+        
+    	
         return null;
     }
 

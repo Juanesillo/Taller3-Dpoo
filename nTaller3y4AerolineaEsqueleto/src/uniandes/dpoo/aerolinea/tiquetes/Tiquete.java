@@ -1,6 +1,9 @@
-package uniandes.dpoo.aerolinea.modelo;
+package uniandes.dpoo.aerolinea.tiquetes;
 
-public class Tiquete {
+import uniandes.dpoo.aerolinea.modelo.Cliente;
+import uniandes.dpoo.aerolinea.modelo.Vuelo;
+
+public class Tiquete extends java.lang.Object {
 	
 	private String codigo;
 	private int tarifa;
@@ -19,6 +22,7 @@ public class Tiquete {
 		this.tarifa=tarifa;
 		this.vuelo=vuelo;
 		this.clienteComprador=clienteComprador;
+		
 		
 	}
 	
@@ -40,11 +44,12 @@ public class Tiquete {
 	}
 	
 	public void MarcarComoUsado() {
+		GeneradorTiquetes.registrarTiquete(GeneradorTiquetes.generarTiquete(vuelo, clienteComprador, tarifa));
 		
 	}
 	
 	public boolean esUsado() {
-		return true;
+		return GeneradorTiquetes.validarTiquete(codigo);
 	}
 	
 	

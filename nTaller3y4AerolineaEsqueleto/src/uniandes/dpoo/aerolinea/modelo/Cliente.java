@@ -1,5 +1,7 @@
 package uniandes.dpoo.aerolinea.modelo;
 
+import uniandes.dpoo.aerolinea.tiquetes.Tiquete;
+
 public abstract class Cliente {
 	
 	
