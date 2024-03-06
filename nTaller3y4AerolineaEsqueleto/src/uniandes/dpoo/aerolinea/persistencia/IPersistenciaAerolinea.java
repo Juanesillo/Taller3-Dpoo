@@ -8,7 +8,7 @@ import uniandes.dpoo.aerolinea.modelo.Aerolinea;
 public interface IPersistenciaAerolinea {
 
 
-    public void cargarAerolinea(String archivo, Aerolinea aerolinea) throws InformacionInconsistenteException;
+    public void cargarAerolinea(String archivo, Aerolinea aerolinea) throws IOException, InformacionInconsistenteException;
 
     public void salvarAerolinea(String archivo, Aerolinea aerolinea) throws IOException ;
 }
