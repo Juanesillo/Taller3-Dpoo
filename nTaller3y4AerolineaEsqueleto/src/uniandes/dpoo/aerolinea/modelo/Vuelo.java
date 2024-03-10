@@ -50,7 +50,7 @@ public class Vuelo {
     
     public int venderTiquetes(Cliente cliente, CalculadoraTarifas calculadora, int cantidad)throws VueloSobrevendidoException{
         /*Crear objeto y agregar al mapa, En caso de no entender regresar al discord */ 
-
+        
         
     	return -1;
     }

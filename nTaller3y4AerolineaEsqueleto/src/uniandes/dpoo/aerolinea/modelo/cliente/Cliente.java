@@ -25,7 +25,10 @@ public abstract class Cliente {
 	};
 	
 	public  int CalcularValorTotalTiquetes(){
-		return -1;
+		
+		return-1;
+
+
 	};
 	
 	public  void UsarTiquetes(Vuelo vuelo){
